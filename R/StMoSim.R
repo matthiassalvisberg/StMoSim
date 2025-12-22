@@ -8,6 +8,10 @@
 #' 
 #' -----------<CHANGELOG>-----------
 #'   
+#' -------< v3.2.0 - 2025-12-21 >-------
+#'  
+#'  update new recommendations from RcppParallel package / The CRAN Team
+#' 
 #' -------< v3.1.1 - 2018-11-19 >-------
 #'   
 #'  provide more (plot) arguments to the user.   
@@ -54,6 +58,6 @@
 #' 
 #' @author Matthias Salvisberg <matthias.salvisberg@@gmail.com>
 #'
-#' @docType package
 #' @name StMoSim
+"_PACKAGE"
 NULL

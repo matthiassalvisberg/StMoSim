@@ -5,6 +5,11 @@
 
 using namespace Rcpp;
 
+#ifdef RCPP_USE_GLOBAL_ROSTREAM
+Rcpp::Rostream<true>&  Rcpp::Rcout = Rcpp::Rcpp_cout_get();
+Rcpp::Rostream<false>& Rcpp::Rcerr = Rcpp::Rcpp_cerr_get();
+#endif
+
 // myQQNormIntern
 NumericMatrix myQQNormIntern(NumericVector mySeq, double myMean, double mySd, double lengthX, int n_sim);
 RcppExport SEXP _StMoSim_myQQNormIntern(SEXP mySeqSEXP, SEXP myMeanSEXP, SEXP mySdSEXP, SEXP lengthXSEXP, SEXP n_simSEXP) {
