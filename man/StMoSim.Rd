@@ -2,8 +2,8 @@
 % Please edit documentation in R/StMoSim.R
 \docType{package}
 \name{StMoSim}
-\alias{StMoSim}
 \alias{StMoSim-package}
+\alias{StMoSim}
 \title{StMoSim: Plots a QQ-Norm Plot with Several Gaussian Simulations}
 \description{
 With this package you can simulate several lines into the QQ-Norm Plot under the assumption of Gaussian distribution. 
@@ -15,6 +15,10 @@ This can be very useful in residual analysis where you have to evaluate whether 
 
 -----------<CHANGELOG>-----------
   
+-------< v3.2.0 - 2025-12-21 >-------
+ 
+ update new recommendations from RcppParallel package / The CRAN Team
+
 -------< v3.1.1 - 2018-11-19 >-------
   
  provide more (plot) arguments to the user.   
@@ -58,6 +62,13 @@ This can be very useful in residual analysis where you have to evaluate whether 
 -----------</CHANGELOG>-----------
 }
 
+\seealso{
+Useful links:
+\itemize{
+  \item Report bugs at \url{https://github.com/matthiassalvisberg/StMoSim/issues}
+}
+
+}
 \author{
 Matthias Salvisberg <matthias.salvisberg@gmail.com>
 }
