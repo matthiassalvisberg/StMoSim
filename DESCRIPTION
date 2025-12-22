@@ -3,8 +3,10 @@ Type: Package
 Title: Quantile-Quantile Plot with Several Gaussian Simulations
 Version: 3.2.0
 Date: 2025-12-21
-Author: Matthias Salvisberg
-Maintainer: Matthias Salvisberg <matthias.salvisberg@gmail.com>
+Authors@R: person(given = "Matthias",
+                  family = "Salvisberg",
+                  role = c("aut", "cre"),
+                  email = "matthias.salvisberg@gmail.com")
 BugReports: https://github.com/matthiassalvisberg/StMoSim/issues
 Description: Plots a QQ-Norm Plot with several Gaussian simulations.
 License: GPL-2 | GPL-3
