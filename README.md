@@ -1,3 +1,14 @@
+<!-- badges: start -->
+
+[![CRAN
+status](https://www.r-pkg.org/badges/version/StMoSim)](https://CRAN.R-project.org/package=StMoSim)
+[![Total
+Downloads](https://cranlogs.r-pkg.org/badges/grand-total/StMoSim)](https://CRAN.R-project.org/package=StMoSim)
+[![Monthly
+Downloads](https://cranlogs.r-pkg.org/badges/StMoSim)](https://CRAN.R-project.org/package=StMoSim)
+
+<!-- badges: end -->
+
 # StMoSim
 
 Plots a QQ-Norm Plot with Several Gaussian Simulations.
